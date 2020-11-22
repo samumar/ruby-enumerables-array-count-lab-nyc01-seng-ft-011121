@@ -5,5 +5,10 @@ end
 
 def count_empty_strings(array)
   empty_str = array.grep("")
-  array.count(empty_str)
+  index = 0
+  array.count do
+    empty_str
+    index += 1
+  end
+  index
 end
