@@ -8,5 +8,5 @@ def count_empty_strings(array)
   array.count do
     array.size < 1
   end
-  index
+  index += 1
 end
