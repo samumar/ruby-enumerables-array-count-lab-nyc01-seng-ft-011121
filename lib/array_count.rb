@@ -8,7 +8,6 @@ def count_empty_strings(array)
   index = 0
   array.count do
     empty_str
-    index += 1
   end
-  index
+  index += 1
 end
