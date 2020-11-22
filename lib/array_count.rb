@@ -4,6 +4,6 @@ def count_strings(array)
 end
 
 def count_empty_strings(array)
-  empty_str = array.include?("")
+  empty_str = array.grep("")
   array.count(empty_str)
 end
